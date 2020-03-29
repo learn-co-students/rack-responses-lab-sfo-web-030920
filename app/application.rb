@@ -6,9 +6,9 @@ class Application
     tim2 = Time.new(2015, 11, 27, 14, 30)
 
     if tim2 > time
-      resp.write "Good Afternoon"
-    else
       resp.write "Good Morning"
+    else
+      resp.write "Good Afternoon"
     end
     resp.finish
   end
